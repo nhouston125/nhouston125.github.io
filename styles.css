@@ -470,38 +470,43 @@ section h2, h3, h4 {
     padding: 15px 20px;
 }
 
-/* @media (max-width: 1024px) {
-    body {
-        font-size: 14px;
-    }
-    #top-header {
-        flex-direction: column;
-        height: auto;
+/* Extra Large Devices */
+@media only screen and (min-width: 1250px) {
+    body{
+
+        font-size: large;
+
+        #home img{
+            height: 70vh;
+        }
+
+        #home h1{
+            font-size:7em;
+        }
+
+        #home  h2{
+            font-size: 2em;
+        }
+
+        #icons img{
+            padding-left: 10vw;
+            padding-right: 10vw;
+            margin-left:25px;
+            margin-right: 25px;
+            padding-bottom: -20px;
+        }
+
+        #skills {
+            height: 70vh;
+        }
+
+        #projects {
+            height: 60vh;
+        }
+
+        #contact {
+            height: 40vh;
+        }
+
     }
 }
-
-@media (max-width: 768px) {
-    ul {
-        flex-direction: column;
-        padding-right: 0;
-        text-align: center;
-    }
-    a {
-        display: block;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    #home_text h1 {
-        font-size: 3em;
-    }
-    .cards {
-        grid-template-columns: 1fr;
-    }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-} */
